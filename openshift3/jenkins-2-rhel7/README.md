@@ -8,3 +8,7 @@
 oc new-app https://github.com/cvarjao/openshift-images.git --context-dir=openshift3/jenkins-2-rhel7 --strategy=docker --name jenkins
 ```
 
+### Updating Upstream image
+```
+oc import-image jenkins-2-rhel7
+```

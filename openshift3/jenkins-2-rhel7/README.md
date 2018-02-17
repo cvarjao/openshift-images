@@ -10,5 +10,5 @@ oc new-app https://github.com/cvarjao/openshift-images.git --context-dir=openshi
 
 ### Updating Upstream image
 ```
-oc import-image jenkins-2-rhel7
+oc import-image jenkins-2-rhel7:v3.6 --from=registry.access.redhat.com/openshift3/jenkins-2-rhel7:v3.6
 ```
